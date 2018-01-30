@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    border:   #994d00 solid 20px;
+    border-radius: 20px;
+    background-color:  #ffeb99;
+}
+
+
+#container{
+    width: 80%;
+    margin: auto;
+     border:#994d0 solid 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+#image{
+    margin: 0;
+}
+#image img{
+    margin: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+

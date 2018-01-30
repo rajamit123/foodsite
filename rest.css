@@ -1,0 +1,243 @@
+body{
+    
+    font-family: sans-serif;
+    background-color:white;
+    margin: 0;
+}
+p{
+    color:  #5d6660;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+header{
+    background-color:aliceblue;
+    font-family: fantasy;
+    height: 70px;
+   
+}
+#header_container{
+    width: 80%;
+    margin: 10px auto;
+     position: fixed;
+    width:100vw;
+    display: inline-block;
+    background-color: transparent;
+    border-bottom: 5px solid grey;
+    z-index:100;
+}
+#nav_section{
+    width: 50%;
+    float: left;
+}
+.list_section li{
+    list-style-type:none;
+    display:inline;
+    font-size: 20px;
+    color:darkblue;
+    text-decoration: none;
+}
+.list_section a{
+    list-style-type:none;
+    display:inline;
+    font-size: 20px;
+    color:darkblue;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.list_section a:hover{
+    background-color: crimson;
+    
+}
+form{
+    float: right;
+    margin: 0;
+}
+.input{
+    background-color:azure;
+    color: dimgrey;
+    padding: 10px 26px;
+    margin-top: 20px;
+}
+.button{
+     background-color:darkseagreen;
+    color: white;
+    padding: 10px 26px;
+    margin-top: 20px; 
+}
+
+#topsectionmain{
+    background-image: url(resturent.jpg); 
+   
+    border: none;
+    height: 740px;
+    margin: 0;
+}
+#topsectioncontent{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    
+}
+#topsectioncontent h1{
+    font-size: 4em;
+    font-weight: 300;
+    color:darkred;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 100px;
+    margin-top: 0;
+}
+#topsectioncontent p{
+    font-size: 1.8em;
+    font-weight: 400;
+    color:darkred;
+    text-align: center;
+    font-family: sans-serif;
+}
+.kitchen{
+    padding-top: 15px;
+    padding-left: 300px;
+}
+#featuresection{
+    padding-top: 100px;
+}
+.featuresection{
+    width: 70%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5em;
+    margin: auto;
+    color: darkgrey;
+}
+.featurecontent{
+    margin: auto;
+    width: 80%;
+}
+.col3{
+   width: 33%;
+    float: left;
+}
+.featurecontent .col3{
+    padding: 10px;
+    width: 30%;
+}
+
+.featurecontent .col3 img{
+    width:100%;
+    height: 250px;
+    
+}
+
+.featurecontent .col3 p{
+    font-size: .9em;
+    letter-spacing: 1px;
+    
+    text-align: center;
+}
+.featurecontent .col3 h3{
+    text-align: center;
+}
+
+#showcase1container{
+    padding: 60px;
+    clear: both;
+    width=100%;
+    background-color:azure;
+}
+.showcase{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.col2{
+    width: 48%;
+    float: left;
+}
+.shoecase1pic{
+    width: 100%;
+}
+.featuretext1{
+    padding-top:  50px;
+    padding-left: 50px;
+}
+.sectiontitle{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.sem;
+}
+.sectionleft{
+    width: 70%;
+    margin: auto;
+    padding: 20px 10px 10px 10px;
+}
+#showcase2container{
+    padding: 60px;
+    clear: both;
+    width=100%;
+    background-color:white;
+}
+.featuretext2{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+#showcase3container{
+padding: 60px;
+    clear: both;
+    width=100%;
+    background-color:#d9ffcc;
+}
+#showcase4container{
+    padding: 60px;
+    clear: both;
+    width=100%;
+    background-color:white;
+}
+.featuretext3{
+     padding-top: 20px;
+     padding-left: 50px;
+}
+.featuretext4{
+    padding-top: 30px;
+     padding-left: 50px;
+}
+#fottercontainer{
+    height: 440px;
+    background-image: url(Beach2.15.15-90.jpg);
+    clear: both;
+}
+.socialfooter{
+    width: 33%;
+    float: left;
+    height: 40%;
+}
+.socialfooter:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+.image{
+    width: 50px;
+    margin: auto;
+    padding-top: 60px;
+}
+.copyright{
+    padding: 50px 0px 0px 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.endsection{
+    padding-top: 20px;
+     width: 70%;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: .9em;
+}
+
+
